@@ -9,15 +9,15 @@
 }
 
 .sirena-logo{
-    height: 74px;
+    height: 48px;
 }
 
 .navegador {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    background-color: #b7a8f0;
-    padding: 0 5%;
+    background-color: #1a1040;
+    padding: 10px 5%;
 }
 
 .nav-list{
