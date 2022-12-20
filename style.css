@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    list-style-type: none;
+}
+
+.sirena-logo{
+    height: 74px;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: #b7a8f0;
+    padding: 0 5%;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item {
+    padding-right: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item-link{
+    color: white;
+}
