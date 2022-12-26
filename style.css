@@ -79,11 +79,12 @@ main{
 
 .boton-deco{
     background-color: #1a1040;
-    padding: 3% 9%;
+    padding: 3% 7%;
     border: none;
     color: white;
     border-radius: 18px;
-    cursor: pointer
+    cursor: pointer;
+    font-size: 18px;
 
 }
 
@@ -91,9 +92,9 @@ main{
 .descripcion{
     display: flex;
     text-align: center;
-    padding: 4rem 11rem;
+    padding: 4rem 12rem;
 }
 
 .descripcion p {
-    font-size: 16px;
+    font-size: 18px;
 }
