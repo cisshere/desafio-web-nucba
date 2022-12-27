@@ -79,12 +79,12 @@ main{
 
 .boton-deco{
     background-color: #1a1040;
-    padding: 3% 7%;
+    padding: 2% 5%;
     border: none;
     color: white;
     border-radius: 1.25rem;
     cursor: pointer;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
 
 }
 
