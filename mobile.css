@@ -19,4 +19,8 @@
     .nav-list {
         display: none;
     }
+
+    .logo-avatar{
+        padding: 0;
+    }
 }
