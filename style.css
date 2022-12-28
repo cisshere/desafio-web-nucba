@@ -23,7 +23,7 @@ main{
     justify-content: space-between;
     font-weight: bold;
     background-color: #1a1040;
-    padding: 10px 5%;
+    padding: 10px 14%;
 }
 
 .nav-list{
@@ -51,30 +51,33 @@ main{
   .info {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 4rem;
+    text-align: initial;
+    gap: 3rem;
     margin: 1% 7%;
   }
   
   .info h1 {
     font-size: 2.5rem;
+    padding-left: 2%;
   }
   
   .info p{
-    font-size: 1.25rem;
-    text-align: center;
+    font-size: 1.10rem;
+    padding: 0 3%;
   }
   
   .logo-avatar {
     width: 18.75rem;
-    padding-right: 7%;
+    padding-right: 10%;
     display: flex;
     flex-direction: column;
   }
 
+
   .botones {
     display: flex;
-    justify-content: space-around;
+    gap: 10%;
+    padding-left: 3%;
 }
 
 .boton-deco{
@@ -92,9 +95,9 @@ main{
 .descripcion{
     display: flex;
     text-align: center;
-    padding: 4rem 12rem;
+    padding: 4rem 15rem;
 }
 
 .descripcion p {
-    font-size: 1.20rem;
+    font-size: 1.10rem;
 }
