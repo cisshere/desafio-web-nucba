@@ -95,7 +95,7 @@ main{
 .descripcion{
     display: flex;
     text-align: center;
-    padding: 4rem 15rem;
+    padding: 4rem 17rem;
 }
 
 .descripcion p {
