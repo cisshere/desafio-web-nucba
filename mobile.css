@@ -1,0 +1,22 @@
+@media (max-width: 820px) {
+    .hero{
+        display: block;
+    }
+
+    .logo-avatar{
+        padding-left: 11%;
+        padding-top: 5%;
+    }
+
+    .descripcion {
+        padding: 2rem 4rem;
+    }
+}
+
+
+@media (max-width: 590px){
+
+    .nav-list {
+        display: none;
+    }
+}
