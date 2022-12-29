@@ -22,6 +22,10 @@ main{
     height: 3rem;
 }
 
+.menu-des, #menu-des{
+    display: none;
+}
+
 .navegador {
     display: flex;
     justify-content: space-between;

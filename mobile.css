@@ -16,10 +16,6 @@
 
 @media (max-width: 637px){
 
-    .nav-list {
-        display: none;
-    }
-
     .info {
         margin: 0;
     }
@@ -33,8 +29,34 @@
         
     }
 
-    .boton-deco{
-        padding: 3% 7%;
+    .nav-list {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        top: 68px;
+        left: 15%;
+        width: 70%;
+        align-items: end;
+        background-color: #271d4e;
+        border: 2px solid black;
+        border-radius: 0 0 15px 15px;
+        border-top: 0;
+        gap: 15px;
+        padding: 2% 0%;
+
+    }
+
+    .menu-label, .menu-des{
+        display: flex;
+        cursor: pointer;
+    }
+
+    .menu-label img{
+        width: 50px;
+    }
+
+    #menu-des:checked + .nav-list{
+        display: flex;
     }
 
 }
