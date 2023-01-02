@@ -5,8 +5,10 @@
     margin: 0;
     text-decoration: none;
     font-family: "poppins", sans-serif;
-    list-style-type: none;
-    
+}
+
+.menu-des, #menu-des{
+    display: none;
 }
 
 html{
@@ -18,12 +20,10 @@ main{
     flex-direction: column;
 }
 
+ /* nab */ 
+
 .sirena-logo{
     height: 3rem;
-}
-
-.menu-des, #menu-des{
-    display: none;
 }
 
 .navegador {
@@ -36,6 +36,7 @@ main{
 
 .nav-list{
     display: flex;
+
 }
 
 .nav-item {
@@ -46,20 +47,21 @@ main{
 
 .nav-item-link{
     color: white;
+    list-style-type: none;
 }
 
+/* hero */
 
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4% 7%;
+    margin: 4% 7%;
   }
   
   .info {
     display: flex;
     flex-direction: column;
-    text-align: initial;
     gap: 3rem;
     margin: 1% 7%;
   }
@@ -81,6 +83,7 @@ main{
     flex-direction: column;
   }
 
+/* botones  */
 
   .botones {
     display: flex;
@@ -90,7 +93,8 @@ main{
 
 .boton-deco{
     background-color: #1a1040;
-    padding: 2% 5%;
+    width: 10rem;
+    height: 3rem;
     border: none;
     color: white;
     border-radius: 1.25rem;
@@ -98,6 +102,8 @@ main{
     font-size: 1.0rem;
 
 }
+
+/* descripcion */
 
 
 .descripcion{
