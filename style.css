@@ -7,6 +7,10 @@
     font-family: "poppins", sans-serif;
 }
 
+strong {
+    color: #1a1040;
+}
+
 .menu-des, #menu-des{
     display: none;
 }
@@ -49,6 +53,10 @@ main{
     color: white;
     list-style-type: none;
 }
+
+.nav-item-link:hover{
+    text-decoration: underline;
+ }
 
 /* hero */
 
@@ -103,15 +111,16 @@ main{
 
 }
 
-/* descripcion */
+.boton-deco:hover{
+    font-size: 1.15rem;
+}
 
+/* descripcion */
 
 .descripcion{
     display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 4rem 17rem;
-}
-
-.descripcion p {
+    margin: 3rem 21rem;
     font-size: 1.10rem;
 }

@@ -10,15 +10,12 @@
 
     .descripcion {
         padding: 2rem 4rem;
+        margin: 0;
     }
 }
 
 
 @media (max-width: 637px){
-
-    .nav-item-link:hover{
-       text-decoration: underline;
-    }
 
     .info {
         margin: 0;
