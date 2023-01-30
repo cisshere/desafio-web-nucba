@@ -1,9 +1,4 @@
-@media (max-width: 1025px){
 
-    .contenedor-card{
-        display: inline-grid;
-    }
-}
 
 @media (max-width: 965px){
     .formulario{
@@ -116,6 +111,10 @@
 
     .card:hover{
         padding: 1.375rem 0.75rem;
+    }
+
+    .hero{
+        margin: 4% 3%;
     }
 }
 
